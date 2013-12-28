@@ -46,6 +46,7 @@ $route['404_override'] = '';
 $route['contact']="home/contact";
 $route['carapesan']="home/pesan";
 $route['carabayar']="home/bayar";
+$route['katalog']="home/katalog";
 
 
 /* End of file routes.php */

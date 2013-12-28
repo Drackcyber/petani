@@ -24,6 +24,10 @@ class home extends CI_Controller {
 	{
 		$this->load->view('html/bayar');
 	}
+	public function katalog()
+	{
+		$this->load->view('html/katalog');
+	}
 
 }
 
