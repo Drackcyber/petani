@@ -28,6 +28,18 @@ class home extends CI_Controller {
 	{
 		$this->load->view('html/katalog');
 	}
+	public function login()
+	{
+		$this->load->view('html/login');
+	}
+	public function register()
+	{
+		$this->load->view('html/register');
+	}
+	public function logout()
+	{
+		$this->load->view('');
+	}
 
 }
 

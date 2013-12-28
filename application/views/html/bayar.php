@@ -48,7 +48,7 @@
 			<div class="upperHeader">
 				<div class="container">
 					<p class="pull-right inline">
-					Welcome to ShopFine, <a href="login.html">Login</a> or <a href="register.html">Create new account</a>
+					Welcome to ShopFine, <a href="<?php echo base_url(); ?>index.php/login">Login</a> or <a href="register.html">Create new account</a>
 					</p>
 				</div><!--end container-->
 			</div><!--end upperHeader-->

@@ -57,7 +57,7 @@
 						<li><a class="invarseColor" href="#">Checkout</a></li>
 					</ul>
 					<p class="pull-left">
-					Welcome to ShopFine, <a href="login.html">Login</a> or <a href="register.html">Create new account</a>
+					Welcome to ShopFine, <a href="<?php echo base_url(); ?>index.php/login">Login</a> or <a href="register.html">Create new account</a>
 					</p>
 				</div><!--end container-->
 			</div><!--end upperHeader-->
@@ -183,7 +183,7 @@
 					      				<li><a href="index-2.html"> <span>-</span> index1</a></li>
 					      				<li><a href="index2.html"> <span>-</span> index2</a></li>
 					      				<li><a href="account.html"> <span>-</span> account</a></li>
-					      				<li><a href="login.html"> <span>-</span> login</a></li>
+					      				<li><a href="<?php echo base_url(); ?>index.php/login"> <span>-</span> login</a></li>
 					      				<li><a href="register.html"> <span>-</span> register</a></li>
 					      				<li><a href="cart.html"> <span>-</span> Cart</a></li>
 					      				<li><a href="wishlist.html"> <span>-</span> wishlist</a></li>

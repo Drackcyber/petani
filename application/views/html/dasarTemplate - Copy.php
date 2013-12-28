@@ -25,7 +25,7 @@
 	<!-- flexslider css-->
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/flexslider.css">
 	<!-- fancybox -->
-	<link rel="stylesheet"href="<?php echo base_url() ?>assets/js/fancybox/jquery.fancybox.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>assets/js/fancybox/jquery.fancybox.css">
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
@@ -114,63 +114,14 @@
 		<!-- end header -->
 
 
+		<!-- isi halaman web -->
 
-		<div class="container">
+		
 
-			<div class="row">
+		<!-- penutup halaman web -->
+		
 
-				<div class="span4">
-					<div class="contact-info">
-						<div class="titleHeader clearfix">
-							<h3>Contact Information</h3>
-						</div><!--end titleHeader-->
-
-						<address>
-						   <h3><i class="icon-pushpin"></i> Address Info:</h3>
-						   <h4>PetaniOnline.com</h4>
-						    Jln. Raya Janti, no 143, Jogjakarta<br>
-						    Indonesia<br>
-						    <abbr title="Phone">P:</abbr> (123) 456-7890
-						</address> 
-
-						<address>
-						   <h3><i class="icon-volume-up"></i> Costumer Services on:</h3>
-						    (123) 456-7890 OR (526) 666-7892
-						</address>
-
-						<address>
-						   <h3><i class="icon-envelope-alt"></i> E-Mail Us on:</h3>
-						    <abbr title="Phone">for Support:</abbr> <a href="mailto:example@example.com">admin@petanionline.com</a><br>
-						    <abbr title="Phone">for Sales:</abbr> <a href="mailto:example22@example.com">admin@petanionline.com</a>
-						</address>
-						
-					</div><!--end contact-info-->
-				</div><!--end span4-->
-
-				<div class="span8">
-					<div class="contact-us-form">
-						<div class="titleHeader clearfix">
-							<h3>Send Us Message</h3>
-						</div><!--end titleHeader-->
-						<form method="#" action="#">
-							<div class="controls controls-row">
-							   <input class="span4" type="text" placeholder="Your Name - Required">
-							   <input class="span4" type="text" placeholder="Your E-Mail - Required">
-							</div>
-							<div class="controls">
-							   <textarea class="span8" placeholder="You Message..."></textarea>
-							</div>
-							<div class="controls">
-							   <button type="submit" class="btn btn-primary pull-right">Send It</button>
-							</div>
-						</form><!--end form-->
-					</div><!--end contact-us-form-->
-
-				</div><!--end span8-->
-				
-			</div><!--end row-->
-
-		</div><!--end conatiner-->
+		<br><br>
 
 		<div class="container">
 			<div class="row">
@@ -179,30 +130,32 @@
 				</div>
 			</div>
 		</div>
-	</div><!--end mainContainer-->
+		</footer>
+		<!--end footer-->
 
+	</div><!--end mainContainer-->
 
 	<!-- JS
 	================================================== -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
     <!-- jQuery.Cookie -->
-	<script src="js/jquery.cookie.js"></script>
+	<script src="<?php echo base_url() ?>assets/js/jquery.cookie.js"></script>
 	<!-- bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
     <!-- flexslider -->
-    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.flexslider-min.js"></script>
     <!-- cycle2 -->
-    <script src="js/jquery.cycle2.min.js"></script>
-    <script src="js/jquery.cycle2.carousel.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.cycle2.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.cycle2.carousel.min.js"></script>
     <!-- tweets -->
-    <script src="js/jquery.tweet.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.tweet.js"></script>
     <!-- placeholder -->
-    <script src="js/jquery.placeholder.min.html"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.placeholder.min.html"></script>
     <!-- fancybox -->
-    <script src="js/fancybox/jquery.fancybox.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/fancybox/jquery.fancybox.js"></script>
     <!-- custom function-->
-    <script src="js/custom.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/custom.js"></script>
     
 </body>
 

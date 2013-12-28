@@ -47,6 +47,9 @@ $route['contact']="home/contact";
 $route['carapesan']="home/pesan";
 $route['carabayar']="home/bayar";
 $route['katalog']="home/katalog";
+$route['login']="home/login";
+$route['logout']="home/logout";
+$route['register']="home/register";
 
 
 /* End of file routes.php */
